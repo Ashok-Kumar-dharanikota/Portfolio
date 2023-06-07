@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #cde8f0;
+    background: #ffffff;
     color: black;
     font: 16px Arial, sans-serif;
 }
@@ -69,7 +69,7 @@ nav ul li a:hover::after {
     margin-left: 50%;
 }
 
-.welcome-text h2 {
+ h2 {
     font-size: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -146,3 +146,4 @@ nav ul li a:hover::after {
 .fa-twitter:hover {
     color: #00acee;
 }
+
