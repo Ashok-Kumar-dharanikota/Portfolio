@@ -184,7 +184,7 @@ h1 {
 }
 
 .experience-box:hover {
-    background-color: blue;
+    background-color: #0d6efd;
     color: white;
 }
 
@@ -213,6 +213,7 @@ h1 {
 .experience-box P {
     margin-left: 15px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
