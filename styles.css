@@ -251,3 +251,25 @@ h1 {
 .tab-title-link:hover::after {
     width: 100%;
 }
+
+
+.skills-container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ul li img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.5s;
+}
+
+ul li img:hover {
+    transform: scale(1.2);
+}
