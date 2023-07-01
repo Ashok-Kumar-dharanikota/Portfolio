@@ -5,6 +5,10 @@ html *{
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: #ffffff;
     color: black;
@@ -433,7 +437,7 @@ form .Btn2 {
     color: red;
 }
 
-nav .fa {
+#header .container nav .fa {
     display: none;
 }
 
@@ -564,6 +568,22 @@ nav .fa {
         margin-right: 10px;
         display: inline-block;
         transition: transform 0.5s;
+    }
+
+    #Experience {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #Experience h1 {
+        display: block;
+        float: left;
+        font-size: 28px;
+    }
+
+    #Skills {
+        width: 100%;
+        height: 100vh;
     }
     
     }
